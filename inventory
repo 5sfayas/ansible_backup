@@ -1,0 +1,8 @@
+[infra]
+Host A
+
+[DB]
+Host B
+
+[Backup]
+Backup Server
