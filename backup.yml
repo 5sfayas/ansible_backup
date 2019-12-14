@@ -1,0 +1,7 @@
+---
+    - name: Copying files from source server to destination
+      synchronize:
+         src: "{{item}}"
+         dest: "/home/sonic/wordpress/"
+         mode: pull
+      delegate_to: "{{groups['Backup'][0]}}"
