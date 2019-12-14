@@ -1,0 +1,4 @@
+name: "infra"
+folders: 
+   - /home/ansible/infra1
+   - /home/ansible/infra2
